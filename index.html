@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title>
-        Audio-Video
-    </title>
-</head>
-<body>
-    <video class="v1" src="test.mp4" controls height="450"></video>
-    
-    <div class="audio">
-    <img src="t.png" alt="this is test">
-    <audio src="ayyayo.mp3" controls ></audio>
-</div>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try to find out your taste</title>
+</head>
+
+<body>
+    <h3>Find out your taste</h3>
+    <div>
+        <form action="post">
+            <label for="username">Enter your name : </label>
+            <input type="text" id="username" name="username" placeholder="Enter our name">
+        </form>
+    </div>
+    <div>
+        <label>Choose your gender :</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">subscribe To Our Channel</label>
+    </div>
+    <div>
+        <label>comment box : </label>
+        <br>
+        <textarea placeholder="asdfsadf" rows="6" cols="70"></textarea>
+
+    </div>
+    <div>
+        <label>Select type :</label>
+        <br>
+        <select name="Fruits">
+            <option>direct</option>
+            <option>cross</option>
+            <option>both</option>
+        </select>
+    </div>
 </body>
+
+</html>
